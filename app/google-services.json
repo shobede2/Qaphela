@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1053057891049",
+    "project_id": "qaphela-ddfa3",
+    "storage_bucket": "qaphela-ddfa3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053057891049:android:f6862291e9334ab39f8e78",
+        "android_client_info": {
+          "package_name": "com.example.qaphela"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUYUk_mwbL5U-h2g0Wgq8YiGoPwIayQy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

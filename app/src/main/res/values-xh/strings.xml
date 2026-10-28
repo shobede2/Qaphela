@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Qaphela</string>
+    <string name="app_tagline">Qaphela. Hlala Khuselekile.</string>
+    <string name="app_disclaimer">Iseleyi: I-Qaphela inika uqwalaselo oluzenzekelayo lobuqhetseba kwi-SMS. Azikho izixhobo eziqinisekisa ukukhuseleka nge-100%. Ungaze wabelane ngeepassword okanye ii-PIN zebhanki.</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Ekhaya</string>
+    <string name="nav_scan_sms">Jonga I-SMS</string>
+    <string name="nav_check_link">Jonga Inkonzo</string>
+    <string name="nav_history">Imbali</string>
+    <string name="nav_blocklist">Uluhlu Olubanjwe</string>
+    <string name="nav_settings">Izicwangciso</string>
+
+    <!-- Onboarding / Welcome -->
+    <string name="welcome_title">Khuseleka Kwikhohlokhohlo Yobuchwepheshe</string>
+    <string name="welcome_subtitle">I-Qaphela ikunceda uhlolisise imilayezo esolisayo nezixhobo ngaphambi kokuba ucofe okanye wabelane ngolwazi.</string>
+    <string name="welcome_privacy_title">Ubumfihlo Kuqala</string>
+    <string name="welcome_privacy_desc">Ukuphononongwa kwemilayezo kwenziwa kwisixhobo sakho kuphela.</string>
+    <string name="get_started">Qalisa Apha</string>
+    <string name="continue_as_guest">Qhubeka Njengondwendwe</string>
+
+    <!-- Home Dashboard -->
+    <string name="home_greeting">Molo, Hlala Khuselekile!</string>
+    <string name="home_subtitle"> Yintoni ofuna ukuyihlola namhlanje?</string>
+    <string name="card_scan_sms_title">Jonga I-SMS Esolisayo</string>
+    <string name="card_scan_sms_desc">Faka umbhalo womlayezo ukuhlola izinto ezisolisayo okanye izicelo zee-PIN.</string>
+
+    <!-- Common Buttons / Languages -->
+    <string name="lang_english">English</string>
+    <string name="lang_isizulu">isiZulu</string>
+    <string name="lang_isixhosa">isiXhosa</string>
+    <string name="lang_afrikaans">Afrikaans</string>
+    <string name="btn_cancel">Cima</string>
+    <string name="btn_delete">Cima</string>
+    <string name="btn_ok">Kulungile</string>
+</resources>

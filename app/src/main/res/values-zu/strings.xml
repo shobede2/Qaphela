@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Qaphela</string>
+    <string name="app_tagline">Qaphela. Hlala Uphephile.</string>
+    <string name="app_disclaimer">Isexwayiso: I-Qaphela inikeza ukuhlola okuzenzakalelayo kobugebengu obusebenzisa imiyalezo. Azikho izinsiza eziqinisekisa ukuphepha nge-100%. Ungalokothi wabelane ngamaphasiwedi noma ama-PIN asebhange.</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Ekhaya</string>
+    <string name="nav_scan_sms">Hlola I-SMS</string>
+    <string name="nav_check_link">Hlola Isixhumanisi</string>
+    <string name="nav_history">Umlando</string>
+    <string name="nav_blocklist">Uhlu Olubanjwe</string>
+    <string name="nav_settings">Izilungiselelo</string>
+
+    <!-- Onboarding / Welcome -->
+    <string name="welcome_title">Vikelani Kubugebengu Base-Inthanethi</string>
+    <string name="welcome_subtitle">I-Qaphela ikusiza ukuhlola imiyalezo esolisayo nezixhumanisi ngaphambi kokuba uchofoze noma wabelane ngolwazi.</string>
+    <string name="welcome_privacy_title">Ukuba Yimfihlo Okokuqala</string>
+    <string name="welcome_privacy_desc">Ukuhlolwa kwayo yonke imiyalezo kwenziwa kudivayisi yakho kuphela.</string>
+    <string name="get_started">Qala Lapha</string>
+    <string name="continue_as_guest">Qhubeka Ngesivakashi</string>
+
+    <!-- Home Dashboard -->
+    <string name="home_greeting">Sawubona, Hlala Uphephile!</string>
+    <string name="home_subtitle">Yini othanda ukuyihlola namhlanje?</string>
+    <string name="card_scan_sms_title">Hlola I-SMS Esolisayo</string>
+    <string name="card_scan_sms_desc">Leta umbhalo womlayezo ukuhlola izinkomba zobugebengu noma izicelo ze-PIN.</string>
+    <string name="card_check_link_title">Hlola Isixhumanisi / URL</string>
+    <string name="card_check_link_desc">Faka isixhumanisi ukuhlola amagama esizinda akhohlisayo.</string>
+    <string name="card_history_title">Umlando Wokuhlola</string>
+    <string name="card_history_desc">Buka imiphumela yakho yokuhlola yangaphambilini.</string>
+    <string name="card_blocklist_title">Uhlu Olubanjwe Oluhlanganyelwe</string>
+    <string name="card_blocklist_desc">Bheka izinsiza ezinqunyiwe nezinombolo ezisolisayo.</string>
+    <string name="section_quick_actions">Izinsiza Ezisheshayo</string>
+    <string name="section_recent_activity">Umlando Wakamuva</string>
+    <string name="no_recent_scans">Awekho ukuhlola kwakamuva.</string>
+    <string name="connection_status_online">Uxhumekile • Injini Yokuhlola Inika Amandla</string>
+    <string name="connection_status_offline">Imo Ye-Anthanethi • Kusetshenziswa Imithetho Yedivayisi</string>
+    <string name="btn_help">Inhlahlandlela</string>
+    <string name="btn_report_home">Bika Ubugebengu</string>
+
+    <!-- Scan SMS -->
+    <string name="scan_sms_title">Hlola Umlayezo We-SMS</string>
+    <string name="scan_sms_hint">Leta noma bhala umbhalo we-SMS osolisayo lapha...</string>
+    <string name="scan_sms_clear">Sula Umbhalo</string>
+    <string name="scan_sms_btn">Hlola Umlayezo</string>
+    <string name="scan_sms_privacy_notice">Isaziso: Umlayezo wakho uhlolwa kudivayisi yakho. Asifundi imiyalezo yakho ngaphandle kwemvume.</string>
+
+    <!-- Check Link -->
+    <string name="check_link_title">Hlola Isixhumanisi / URL</string>
+    <string name="check_link_hint">Leta isixhumanisi sewebhu (isb. https://example-bank-login.com)</string>
+    <string name="check_link_btn">Hlola Isixhumanisi</string>
+    <string name="check_link_reminder">Isikhumbuzo: Ungalokothi ufake amaphasiwedi kumasayithi angagunyaziwe.</string>
+
+    <!-- Validation Errors -->
+    <string name="error_empty_sms">Sicela ufake umbhalo we-SMS ukuze uhlole.</string>
+    <string name="error_empty_url">Sicela ufake isixhumanisi ukuze uhlole.</string>
+    <string name="error_invalid_url">Isixhumanisi asilungile. Sicela ufake okufanele (isb. https://domain.com).</string>
+
+    <!-- Scan Results -->
+    <string name="result_title">Imiphumela Yokuhlola</string>
+    <string name="risk_high">Ingozi Enkulu</string>
+    <string name="risk_suspicious">Kuyasolisa</string>
+    <string name="risk_no_indicators">Awekho Izinkomba Ezisolisayo</string>
+    <string name="risk_unable">Akukwazanga Ukuqedela Ukuhlola</string>
+
+    <string name="result_scan_type">Uhlobo Lokuhlola:</string>
+    <string name="result_timestamp">Usuku Nesikhathi:</string>
+    <string name="result_detected_indicators">Izinkomba Ezitholiwe:</string>
+    <string name="result_recommended_actions">Izinyathelo Ezituswayo:</string>
+    <string name="btn_report_suspicious">Bika Ngento Esolisayo</string>
+    <string name="btn_scan_again">Hlola Enye Intho</string>
+    <string name="btn_return_home">Buyela Ekhaya</string>
+
+    <!-- Risk Explanations -->
+    <string name="desc_high_risk">Lento inezinkomba ezinamandla zobugebengu. Isexwayiso esiphezulu siyadingeka.</string>
+    <string name="desc_suspicious">Lento iqukethe izinto ezisolisayo. Qaphela uma ungayilindele.</string>
+    <string name="desc_no_indicators">Awekho amaphetheni amukelekayo amukelekile angena ezinkombeni zethu. Hlala uqaphile.</string>
+    <string name="desc_unable">Ukuhlola akukwazanga ukwenziwa ngenxa yephutha lefomethi.</string>
+
+    <!-- Scan History -->
+    <string name="history_title">Umlando Wokuhlola</string>
+    <string name="history_empty">Umlando wakho wokuhlola ungenalutho.</string>
+    <string name="history_clear_all">Sula Wonke Umlando</string>
+    <string name="history_clear_confirm_title">Sula Umlando Wokuhlola?</string>
+    <string name="history_clear_confirm_message">Uqinisekile ufuna ukusula yonke imininingwane egciniwe?</string>
+    <string name="history_item_deleted">Umlando usuliwe.</string>
+
+    <!-- Blocklist -->
+    <string name="blocklist_title">Uhlu Olubanjwe Lwesongelo</string>
+    <string name="blocklist_search_hint">Cinga izinkomba eluhlwini...</string>
+    <string name="blocklist_empty">Awekho izinto ezitholakele.</string>
+    <string name="blocklist_demo_notice">Umbukiso Wokuhlola: Uhlu olungeansi luqukethe izibonelo zokuhlola.</string>
+
+    <!-- Report -->
+    <string name="report_title">Bika Ngento Esolisayo</string>
+    <string name="report_indicator_hint">Inombolo yocingo, umthumeli, noma isixhumanisi</string>
+    <string name="report_description_hint">Chaza ukuthi kungani lento isolisa (ongakukhetha)...</string>
+    <string name="report_submit_btn">Thumela Umbiko</string>
+    <string name="report_privacy_info">Imibiko idinga ukubuyekezwa ngaphambi kokuba ingene eluhlwini. Igcinwa kuyo idivayisi.</string>
+    <string name="report_success_message">Siyabonga. Umbiko wakho uthunyelwe kuyo idivayisi ukuba ubuyekezwe.</string>
+    <string name="error_empty_report">Sicela unikeze inombolo yocingo noma isixhumanisi ukuze ubike.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Izilungiselelo</string>
+    <string name="settings_language">Ulimi / Language</string>
+    <string name="settings_language_summary">Khetha ulimi lokusebenzisa uhlelo</string>
+    <string name="settings_history_toggle">Vumela Umlando Wokuhlola</string>
+    <string name="settings_history_summary">Gcina imiphumela ngokwasendaweni kudivayisi</string>
+    <string name="settings_notifications_toggle">Izaziso Zezokuphepha</string>
+    <string name="settings_notifications_summary">Thola izaziso mayelana nezinsongo ezibalulekile</string>
+    <string name="settings_privacy_policy">Inqubomgomo Yobumfihlo</string>
+    <string name="settings_help">Inhlahlandlela Nosizo</string>
+    <string name="settings_about">Mayelana ne-Qaphela</string>
+    <string name="settings_clear_data">Sula Imininingwane Yasendaweni</string>
+    <string name="settings_clear_data_success">Imininingwane yasendaweni isuliwe ngokuphelele.</string>
+
+    <!-- Languages -->
+    <string name="lang_english">English</string>
+    <string name="lang_isizulu">isiZulu</string>
+    <string name="lang_isixhosa">isiXhosa</string>
+    <string name="lang_afrikaans">Afrikaans</string>
+
+    <!-- Common Buttons / Labels -->
+    <string name="btn_cancel">Khansela</string>
+    <string name="btn_delete">Sula</string>
+    <string name="btn_ok">Kulungile</string>
+    <string name="btn_copy">Kopisha</string>
+    <string name="copied_to_clipboard">Ikopishiwe ebhodini.</string>
+    <string name="status_pending">Ilindele Ukubuyekezwa</string>
+
+    <!-- Privacy, Help, About Content -->
+    <string name="privacy_content_title">Inqubomgomo Yobumfihlo</string>
+    <string name="privacy_content_body">1. Ukusebenza Kwasekhaya: I-Qaphela isebenzisa ukuhlola kudivayisi yakho kuphela ukuvikela ubumfihlo wakho.\n\n2. Ukugcina Umlando: Imiphumela igcinwa kudivayisi yakho uma ulandela izilungiselelo.\n\n3. Akukho ukuthunyelwa kwasendlini okuvela kumsebenzisi ngaphandle kokubika.</string>
+
+    <string name="help_content_title">Indlela Yokusebenzisa I-Qaphela</string>
+    <string name="help_content_body">1. Indlela yokuhlola i-SMS: Kopisha umbhalo womlayezo, chofoza \'Hlola I-SMS\', faka umbhalo, bese uchofoza \'Hlola Umlayezo\'.\n\n2. Indlela yokuhlola isixhumanisi: Chofoza \'Hlola Isixhumanisi\', faka isixhumanisi bese ucindezela ukuhlola.</string>
+
+    <string name="about_content_title">Mayelana ne-Qaphela</string>
+    <string name="about_content_body">Qaphela v1.0\n\"Qaphela. Hlala Uphephile.\"\n\nI-Qaphela ingeyokuvikela abasebenzisi baseNingizimu Afrika kubugebengu base-inthanethi ne-SMS eyisiphambeko.</string>
+</resources>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Qaphela</string>
+    <string name="app_tagline">Be Alert. Stay Safe.</string>
+    <string name="app_disclaimer">Advisory Notice: Qaphela provides automated heuristic scam detection to assist your judgment. No tool can guarantee 100% security against all fraud. Never share passwords, PINs, or sensitive banking details.</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_scan_sms">Scan SMS</string>
+    <string name="nav_check_link">Check Link</string>
+    <string name="nav_history">History</string>
+    <string name="nav_blocklist">Blocklist</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Onboarding / Welcome -->
+    <string name="welcome_title">Protect Yourself Against Fraud</string>
+    <string name="welcome_subtitle">Qaphela helps you analyze suspicious SMS messages and URLs before you click, share personal info, or make payments.</string>
+    <string name="welcome_privacy_title">Privacy First</string>
+    <string name="welcome_privacy_desc">All message scans are processed locally on your device unless you explicitly submit a report.</string>
+    <string name="get_started">Get Started</string>
+    <string name="continue_as_guest">Continue as Guest</string>
+
+    <!-- Home Dashboard -->
+    <string name="home_greeting">Hello, Stay Safe!</string>
+    <string name="home_subtitle">What would you like to check today?</string>
+    <string name="card_scan_sms_title">Scan Suspicious SMS</string>
+    <string name="card_scan_sms_desc">Paste message text to check for scam indicators, PIN requests, or fraudulent demands.</string>
+    <string name="card_check_link_title">Check Link / URL</string>
+    <string name="card_check_link_desc">Enter a web link to verify domain structures, misleading links, or blocklist matches.</string>
+    <string name="card_history_title">Scan History</string>
+    <string name="card_history_desc">View your previous scan results and local security records.</string>
+    <string name="card_blocklist_title">Shared Blocklist</string>
+    <string name="card_blocklist_desc">Browse flagged domains, phone numbers, and known scam indicators.</string>
+    <string name="section_quick_actions">Quick Actions</string>
+    <string name="section_recent_activity">Recent Activity</string>
+    <string name="no_recent_scans">No recent scans found.</string>
+    <string name="connection_status_online">Online • Local Threat Engine Active</string>
+    <string name="connection_status_offline">Offline Mode • Using On-Device Rules</string>
+    <string name="btn_help">Help Guide</string>
+    <string name="btn_report_home">Report Scam</string>
+
+    <!-- Scan SMS -->
+    <string name="scan_sms_title">Scan SMS Message</string>
+    <string name="scan_sms_hint">Paste or type the suspicious SMS content here...</string>
+    <string name="scan_sms_clear">Clear Input</string>
+    <string name="scan_sms_btn">Scan Message</string>
+    <string name="scan_sms_privacy_notice">Notice: Your message text is analyzed on your device. We do not automatically read your inbox or send message text to external servers.</string>
+
+    <!-- Check Link -->
+    <string name="check_link_title">Check URL / Web Link</string>
+    <string name="check_link_hint">Paste web link (e.g. https://example-bank-login.com)</string>
+    <string name="check_link_btn">Check Link</string>
+    <string name="check_link_reminder">Safe Browsing Reminder: Never enter passwords or card details on unverified sites, even if they show HTTPS.</string>
+
+    <!-- Validation Errors -->
+    <string name="error_empty_sms">Please paste or enter SMS message text to scan.</string>
+    <string name="error_empty_url">Please enter or paste a URL to check.</string>
+    <string name="error_invalid_url">Invalid URL format. Please enter a valid web link (e.g. https://domain.com).</string>
+
+    <!-- Scan Results -->
+    <string name="result_title">Scan Findings</string>
+    <string name="risk_high">High Risk</string>
+    <string name="risk_suspicious">Suspicious</string>
+    <string name="risk_no_indicators">No Obvious Indicators Found</string>
+    <string name="risk_unable">Unable to Complete Check</string>
+
+    <string name="result_scan_type">Scan Type:</string>
+    <string name="result_timestamp">Date &amp; Time:</string>
+    <string name="result_detected_indicators">Detected Indicators:</string>
+    <string name="result_recommended_actions">Recommended Actions:</string>
+    <string name="btn_report_suspicious">Report Suspicious Item</string>
+    <string name="btn_scan_again">Scan Another Item</string>
+    <string name="btn_return_home">Return to Home</string>
+
+    <!-- Risk Explanations -->
+    <string name="desc_high_risk">This item exhibits strong indicators of a scam or phishing attempt. High caution required.</string>
+    <string name="desc_suspicious">This item contains suspicious patterns or misleading elements. Avoid interacting if unexpected.</string>
+    <string name="desc_no_indicators">No known scam patterns were matched against our indicators. Always verify through official channels.</string>
+    <string name="desc_unable">The scan could not analyze the provided input due to an format error or missing data.</string>
+
+    <!-- Scan History -->
+    <string name="history_title">Scan History</string>
+    <string name="history_empty">Your scan history is empty.</string>
+    <string name="history_clear_all">Clear All History</string>
+    <string name="history_clear_confirm_title">Clear Scan History?</string>
+    <string name="history_clear_confirm_message">Are you sure you want to delete all saved scan records? This action cannot be undone.</string>
+    <string name="history_item_deleted">Scan record deleted.</string>
+
+    <!-- Blocklist -->
+    <string name="blocklist_title">Shared Threat Blocklist</string>
+    <string name="blocklist_search_hint">Search blocklist indicators...</string>
+    <string name="blocklist_empty">No matching blocklist items found.</string>
+    <string name="blocklist_demo_notice">Demonstration Dataset: The list below contains sample threat indicators for prototype verification.</string>
+
+    <!-- Report -->
+    <string name="report_title">Report Suspicious Item</string>
+    <string name="report_indicator_hint">Phone number, SMS sender, or URL</string>
+    <string name="report_description_hint">Describe why this item is suspicious (optional)...</string>
+    <string name="report_submit_btn">Submit Report</string>
+    <string name="report_privacy_info">Reports require human moderation before entering any shared blocklist. Saved locally for demonstration.</string>
+    <string name="report_success_message">Thank you. Your report has been submitted locally for moderation review.</string>
+    <string name="error_empty_report">Please provide a phone number, sender name, or URL to report.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_language">Language / Ulimi</string>
+    <string name="settings_language_summary">Choose application display language</string>
+    <string name="settings_history_toggle">Enable Scan History</string>
+    <string name="settings_history_summary">Save scan results locally on this device</string>
+    <string name="settings_notifications_toggle">Security Notifications</string>
+    <string name="settings_notifications_summary">Receive alerts regarding critical threat updates</string>
+    <string name="settings_privacy_policy">Privacy Notice</string>
+    <string name="settings_help">Help &amp; Instructions</string>
+    <string name="settings_about">About Qaphela</string>
+    <string name="settings_clear_data">Clear Local App Data</string>
+    <string name="settings_clear_data_success">Local data successfully cleared.</string>
+
+    <!-- Languages -->
+    <string name="lang_english">English</string>
+    <string name="lang_isizulu">isiZulu</string>
+    <string name="lang_isixhosa">isiXhosa</string>
+    <string name="lang_afrikaans">Afrikaans</string>
+
+    <!-- Common Buttons / Labels -->
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_copy">Copy</string>
+    <string name="copied_to_clipboard">Copied to clipboard.</string>
+    <string name="status_pending">Pending Moderation</string>
+
+    <!-- Privacy, Help, About Content -->
+    <string name="privacy_content_title">Privacy &amp; Data Security</string>
+    <string name="privacy_content_body">1. Local Processing: Qaphela performs heuristic analysis on your device to protect your privacy.\n\n2. History Storage: Completed scans are saved locally only if scan history is enabled in Settings. You can clear history at any time.\n\n3. External Data Transmission: Qaphela does not automatically transmit SMS contents to remote servers.\n\n4. Reports: User-submitted scam reports are stored locally for demonstration moderation.\n\n5. Permissions: Qaphela requires no intrusive permissions such as background SMS reading.</string>
+
+    <string name="help_content_title">How to Use Qaphela</string>
+    <string name="help_content_body">1. How to Scan SMS: Copy suspicious message text from your SMS app, tap \'Scan SMS\' on the home dashboard, paste the message, and tap \'Scan Message\'.\n\n2. How to Check a Link: Tap \'Check Link\', paste the web link, and tap \'Check Link\' to inspect for blocklist hits or deceptive domain structures.\n\n3. Understanding Findings:\n- High Risk: Strong scam indicators found. Do not interact!\n- Suspicious: Warning indicators present. Proceed with caution.\n- No Obvious Indicators: No known scam rules matched, but stay vigilant.\n\n4. Reporting Scams: Use the Report feature to submit new suspicious numbers or URLs.</string>
+
+    <string name="about_content_title">About Qaphela</string>
+    <string name="about_content_body">Qaphela v1.0\n\"Be Alert. Stay Safe.\"\n\nQaphela is a cybersecurity application tailored for South African users to defend against digital fraud, phishing SMSs, and deceptive URLs.\n\nDeveloped as a privacy-focused threat assessment prototype.</string>
+</resources>

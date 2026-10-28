@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Qaphela Brand Colors -->
+    <color name="burgundy_primary">#5A0E1A</color>
+    <color name="burgundy_secondary">#8B1E3F</color>
+    <color name="alert_pink">#C2185B</color>
+    <color name="light_pink">#F7F2F4</color>
+    <color name="off_white">#FFF7F8</color>
+    <color name="text_main">#242124</color>
+    <color name="text_secondary">#6F6870</color>
+
+    <!-- Indicators -->
+    <color name="risk_high">#C2185B</color>
+    <color name="risk_suspicious">#E65100</color>
+    <color name="risk_low">#2E7D32</color>
+    <color name="risk_unknown">#6F6870</color>
+
+    <!-- UI Helpers -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="divider_color">#E0D6D8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Qaphela</string>
+    <string name="app_tagline">Wees Alert. Bly Veilig.</string>
+    <string name="app_disclaimer">Advieskennisgewing: Qaphela bied outomatiese bedrogopsporing om jou oordeel te ondersteun. Geen nutsmiddel kan 100% veiligheid waarborg nie. Moet nooit wagwoorde of PINs deel nie.</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Tuis</string>
+    <string name="nav_scan_sms">Skandeer SMS</string>
+    <string name="nav_check_link">Toets Skakel</string>
+    <string name="nav_history">Geskiedenis</string>
+    <string name="nav_blocklist">Bloklys</string>
+    <string name="nav_settings">Instellings</string>
+
+    <!-- Onboarding / Welcome -->
+    <string name="welcome_title">Beskerm Jouself Teen Bedrog</string>
+    <string name="welcome_subtitle">Qaphela help jou om verdagte SMS-boodskappe en skakels te analiseer voordat jy klik of inligting deel.</string>
+    <string name="welcome_privacy_title">Privaatheid Eerste</string>
+    <string name="welcome_privacy_desc">Boodskappe word plaaslik op jou toestel verwerk.</string>
+    <string name="get_started">Begin Nou</string>
+    <string name="continue_as_guest">Gaan voort as Gas</string>
+
+    <!-- Home Dashboard -->
+    <string name="home_greeting">Hallo, Bly Veilig!</string>
+    <string name="home_subtitle">Wat wil jy vandag toets?</string>
+    <string name="card_scan_sms_title">Skandeer Verdagte SMS</string>
+    <string name="card_scan_sms_desc">Plak boodskapteks om te toets vir bedrog-aanwysers of PIN-versoeke.</string>
+
+    <!-- Common Buttons / Languages -->
+    <string name="lang_english">English</string>
+    <string name="lang_isizulu">isiZulu</string>
+    <string name="lang_isixhosa">isiXhosa</string>
+    <string name="lang_afrikaans">Afrikaans</string>
+    <string name="btn_cancel">Kanselleer</string>
+    <string name="btn_delete">Vee uit</string>
+    <string name="btn_ok">OK</string>
+</resources>

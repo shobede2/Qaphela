@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.qaphela.ui.splash.SplashFragment"
+        android:label="Splash">
+        <action
+            android:id="@+id/action_splash_to_onboarding"
+            app:destination="@id/onboardingFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splash_to_home"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/onboardingFragment"
+        android:name="com.example.qaphela.ui.onboarding.OnboardingFragment"
+        android:label="Welcome">
+        <action
+            android:id="@+id/action_onboarding_to_register"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_onboarding_to_login"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_onboarding_to_home"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/onboardingFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.qaphela.ui.auth.LoginFragment"
+        android:label="Log In">
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.qaphela.ui.auth.RegisterFragment"
+        android:label="Register">
+        <action
+            android:id="@+id/action_registerFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_registerFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/registerFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.qaphela.ui.home.HomeFragment"
+        android:label="@string/nav_home">
+        <action
+            android:id="@+id/action_home_to_scanSms"
+            app:destination="@id/scanSmsFragment" />
+        <action
+            android:id="@+id/action_home_to_checkLink"
+            app:destination="@id/checkLinkFragment" />
+        <action
+            android:id="@+id/action_home_to_history"
+            app:destination="@id/historyFragment" />
+        <action
+            android:id="@+id/action_home_to_blocklist"
+            app:destination="@id/blocklistFragment" />
+        <action
+            android:id="@+id/action_home_to_report"
+            app:destination="@id/reportFragment" />
+        <action
+            android:id="@+id/action_home_to_settings"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_home_to_help"
+            app:destination="@id/helpFragment" />
+        <action
+            android:id="@+id/action_home_to_chatbot"
+            app:destination="@id/chatbotFragment" />
+        <action
+            android:id="@+id/action_home_to_getHelpFast"
+            app:destination="@id/getHelpFastFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/getHelpFastFragment"
+        android:name="com.example.qaphela.ui.escalation.GetHelpFastFragment"
+        android:label="Get Help Fast">
+        <action
+            android:id="@+id/action_getHelpFast_to_emergencyPhysical"
+            app:destination="@id/emergencyPhysicalFragment" />
+        <action
+            android:id="@+id/action_getHelpFast_to_fraudRecovery"
+            app:destination="@id/fraudRecoveryFragment" />
+        <action
+            android:id="@+id/action_getHelpFast_to_communityWarning"
+            app:destination="@id/communityWarningFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/emergencyPhysicalFragment"
+        android:name="com.example.qaphela.ui.escalation.EmergencyPhysicalFragment"
+        android:label="Emergency Assistance" />
+
+    <fragment
+        android:id="@+id/fraudRecoveryFragment"
+        android:name="com.example.qaphela.ui.escalation.FraudRecoveryFragment"
+        android:label="Bank Fraud Recovery" />
+
+    <fragment
+        android:id="@+id/communityWarningFragment"
+        android:name="com.example.qaphela.ui.escalation.CommunityWarningFragment"
+        android:label="Community Warning" />
+
+    <fragment
+        android:id="@+id/chatbotFragment"
+        android:name="com.example.qaphela.ui.chatbot.ChatbotFragment"
+        android:label="AI Chatbot" />
+
+    <fragment
+        android:id="@+id/scanSmsFragment"
+        android:name="com.example.qaphela.ui.scan.ScanSmsFragment"
+        android:label="@string/scan_sms_title">
+        <action
+            android:id="@+id/action_scanSms_to_scanResult"
+            app:destination="@id/scanResultFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/checkLinkFragment"
+        android:name="com.example.qaphela.ui.scan.CheckLinkFragment"
+        android:label="@string/check_link_title">
+        <action
+            android:id="@+id/action_checkLink_to_scanResult"
+            app:destination="@id/scanResultFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/scanResultFragment"
+        android:name="com.example.qaphela.ui.result.ScanResultFragment"
+        android:label="@string/result_title">
+        <argument
+            android:name="scanId"
+            app:argType="long"
+            android:defaultValue="0L" />
+        <action
+            android:id="@+id/action_scanResult_to_report"
+            app:destination="@id/reportFragment" />
+        <action
+            android:id="@+id/action_scanResult_to_home"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_scanResult_to_getHelpFast"
+            app:destination="@id/getHelpFastFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.qaphela.ui.history.HistoryFragment"
+        android:label="@string/history_title">
+        <action
+            android:id="@+id/action_history_to_scanResult"
+            app:destination="@id/scanResultFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/blocklistFragment"
+        android:name="com.example.qaphela.ui.blocklist.BlocklistFragment"
+        android:label="@string/blocklist_title" />
+
+    <fragment
+        android:id="@+id/reportFragment"
+        android:name="com.example.qaphela.ui.report.ReportFragment"
+        android:label="@string/report_title" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.qaphela.ui.settings.SettingsFragment"
+        android:label="@string/settings_title">
+        <action
+            android:id="@+id/action_settings_to_privacy"
+            app:destination="@id/privacyFragment" />
+        <action
+            android:id="@+id/action_settings_to_help"
+            app:destination="@id/helpFragment" />
+        <action
+            android:id="@+id/action_settings_to_about"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_settings_to_login"
+            app:destination="@id/loginFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/privacyFragment"
+        android:name="com.example.qaphela.ui.privacy.PrivacyFragment"
+        android:label="@string/settings_privacy_policy" />
+
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="com.example.qaphela.ui.help.HelpFragment"
+        android:label="@string/settings_help" />
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.qaphela.ui.about.AboutFragment"
+        android:label="@string/settings_about" />
+
+</navigation>
